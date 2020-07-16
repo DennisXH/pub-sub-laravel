@@ -1,0 +1,256 @@
+[2020-07-15 23:12:21] local.ERROR: RuntimeException: A facade root has not been set. in /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/support/Facades/Facade.php:258
+Stack trace:
+#0 /Users/dennis/work/self/pub-sub-laravel/routes/web.php(14): Illuminate\Support\Facades\Facade::__callStatic('post', Array)
+#1 /Users/dennis/work/self/pub-sub-laravel/bootstrap/app.php(112): require('/Users/dennis/w...')
+#2 [internal function]: {closure}(Object(Laravel\Lumen\Routing\Router))
+#3 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Routing/Router.php(62): call_user_func(Object(Closure), Object(Laravel\Lumen\Routing\Router))
+#4 /Users/dennis/work/self/pub-sub-laravel/bootstrap/app.php(113): Laravel\Lumen\Routing\Router->group(Array, Object(Closure))
+#5 /Users/dennis/work/self/pub-sub-laravel/artisan(18): require('/Users/dennis/w...')
+#6 {main} {"exception":"[object] (RuntimeException(code: 0): A facade root has not been set. at /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/support/Facades/Facade.php:258)
+[stacktrace]
+#0 /Users/dennis/work/self/pub-sub-laravel/routes/web.php(14): Illuminate\\Support\\Facades\\Facade::__callStatic('post', Array)
+#1 /Users/dennis/work/self/pub-sub-laravel/bootstrap/app.php(112): require('/Users/dennis/w...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Routing/Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 /Users/dennis/work/self/pub-sub-laravel/bootstrap/app.php(113): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 /Users/dennis/work/self/pub-sub-laravel/artisan(18): require('/Users/dennis/w...')
+#6 {main}
+"} 
+[2020-07-15 23:14:46] local.ERROR: RuntimeException: A facade root has not been set. in /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/support/Facades/Facade.php:258
+Stack trace:
+#0 /Users/dennis/work/self/pub-sub-laravel/routes/web.php(15): Illuminate\Support\Facades\Facade::__callStatic('post', Array)
+#1 /Users/dennis/work/self/pub-sub-laravel/bootstrap/app.php(112): require('/Users/dennis/w...')
+#2 [internal function]: {closure}(Object(Laravel\Lumen\Routing\Router))
+#3 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Routing/Router.php(62): call_user_func(Object(Closure), Object(Laravel\Lumen\Routing\Router))
+#4 /Users/dennis/work/self/pub-sub-laravel/bootstrap/app.php(113): Laravel\Lumen\Routing\Router->group(Array, Object(Closure))
+#5 /Users/dennis/work/self/pub-sub-laravel/artisan(18): require('/Users/dennis/w...')
+#6 {main} {"exception":"[object] (RuntimeException(code: 0): A facade root has not been set. at /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/support/Facades/Facade.php:258)
+[stacktrace]
+#0 /Users/dennis/work/self/pub-sub-laravel/routes/web.php(15): Illuminate\\Support\\Facades\\Facade::__callStatic('post', Array)
+#1 /Users/dennis/work/self/pub-sub-laravel/bootstrap/app.php(112): require('/Users/dennis/w...')
+#2 [internal function]: {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#3 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Routing/Router.php(62): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Routing\\Router))
+#4 /Users/dennis/work/self/pub-sub-laravel/bootstrap/app.php(113): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 /Users/dennis/work/self/pub-sub-laravel/artisan(18): require('/Users/dennis/w...')
+#6 {main}
+"} 
+[2020-07-15 23:15:29] local.ERROR: Symfony\Component\Console\Exception\NamespaceNotFoundException: There are no commands defined in the "route" namespace. in /Users/dennis/work/self/pub-sub-laravel/vendor/symfony/console/Application.php:574
+Stack trace:
+#0 /Users/dennis/work/self/pub-sub-laravel/vendor/symfony/console/Application.php(625): Symfony\Component\Console\Application->findNamespace('route')
+#1 /Users/dennis/work/self/pub-sub-laravel/vendor/symfony/console/Application.php(228): Symfony\Component\Console\Application->find('route:list')
+#2 /Users/dennis/work/self/pub-sub-laravel/vendor/symfony/console/Application.php(140): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/console/Application.php(93): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Illuminate\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /Users/dennis/work/self/pub-sub-laravel/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 {main} {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"route\" namespace. at /Users/dennis/work/self/pub-sub-laravel/vendor/symfony/console/Application.php:574)
+[stacktrace]
+#0 /Users/dennis/work/self/pub-sub-laravel/vendor/symfony/console/Application.php(625): Symfony\\Component\\Console\\Application->findNamespace('route')
+#1 /Users/dennis/work/self/pub-sub-laravel/vendor/symfony/console/Application.php(228): Symfony\\Component\\Console\\Application->find('route:list')
+#2 /Users/dennis/work/self/pub-sub-laravel/vendor/symfony/console/Application.php(140): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/console/Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 /Users/dennis/work/self/pub-sub-laravel/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2020-07-15 23:16:02] local.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "serve" is not defined. in /Users/dennis/work/self/pub-sub-laravel/vendor/symfony/console/Application.php:644
+Stack trace:
+#0 /Users/dennis/work/self/pub-sub-laravel/vendor/symfony/console/Application.php(228): Symfony\Component\Console\Application->find('serve')
+#1 /Users/dennis/work/self/pub-sub-laravel/vendor/symfony/console/Application.php(140): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/console/Application.php(93): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Illuminate\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /Users/dennis/work/self/pub-sub-laravel/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 {main} {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"serve\" is not defined. at /Users/dennis/work/self/pub-sub-laravel/vendor/symfony/console/Application.php:644)
+[stacktrace]
+#0 /Users/dennis/work/self/pub-sub-laravel/vendor/symfony/console/Application.php(228): Symfony\\Component\\Console\\Application->find('serve')
+#1 /Users/dennis/work/self/pub-sub-laravel/vendor/symfony/console/Application.php(140): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/console/Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /Users/dennis/work/self/pub-sub-laravel/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2020-07-15 23:24:27] local.ERROR: ReflectionException: Class App\Http\Controllers\App\Http\Controllers\Controller does not exist in /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php:805
+Stack trace:
+#0 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php(805): ReflectionClass->__construct('App\\Http\\Contro...')
+#1 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php(687): Illuminate\Container\Container->build('App\\Http\\Contro...')
+#2 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php(633): Illuminate\Container\Container->resolve('App\\Http\\Contro...', Array)
+#3 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#4 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(321): Laravel\Lumen\Application->make('App\\Http\\Contro...')
+#5 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(279): Laravel\Lumen\Application->callControllerAction(Array)
+#6 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(264): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#7 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(234): Laravel\Lumen\Application->handleFoundRoute(Array)
+#8 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(170): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#9 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(Object(Laravel\Lumen\Http\Request))
+#10 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\Lumen\Application->dispatch(NULL)
+#12 /Users/dennis/work/self/pub-sub-laravel/public/index.php(28): Laravel\Lumen\Application->run()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Controllers\App\Http\Controllers\Controller] does not exist. in /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php:807
+Stack trace:
+#0 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php(687): Illuminate\Container\Container->build('App\\Http\\Contro...')
+#1 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php(633): Illuminate\Container\Container->resolve('App\\Http\\Contro...', Array)
+#2 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#3 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(321): Laravel\Lumen\Application->make('App\\Http\\Contro...')
+#4 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(279): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(264): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(234): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(170): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#8 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(Object(Laravel\Lumen\Http\Request))
+#9 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#10 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\Lumen\Application->dispatch(NULL)
+#11 /Users/dennis/work/self/pub-sub-laravel/public/index.php(28): Laravel\Lumen\Application->run()
+#12 {main} {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Http\\Controllers\\App\\Http\\Controllers\\Controller] does not exist. at /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php:807)
+[stacktrace]
+#0 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php(687): Illuminate\\Container\\Container->build('App\\\\Http\\\\Contro...')
+#1 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php(633): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Contro...', Array)
+#2 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('App\\\\Http\\\\Contro...', Array)
+#3 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(321): Laravel\\Lumen\\Application->make('App\\\\Http\\\\Contro...')
+#4 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction(Array)
+#5 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#6 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#7 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse(Array)
+#8 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#9 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#10 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#11 /Users/dennis/work/self/pub-sub-laravel/public/index.php(28): Laravel\\Lumen\\Application->run()
+#12 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class App\\Http\\Controllers\\App\\Http\\Controllers\\Controller does not exist at /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php:805)
+[stacktrace]
+#0 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php(805): ReflectionClass->__construct('App\\\\Http\\\\Contro...')
+#1 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php(687): Illuminate\\Container\\Container->build('App\\\\Http\\\\Contro...')
+#2 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php(633): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Contro...', Array)
+#3 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('App\\\\Http\\\\Contro...', Array)
+#4 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(321): Laravel\\Lumen\\Application->make('App\\\\Http\\\\Contro...')
+#5 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction(Array)
+#6 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#7 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#8 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse(Array)
+#9 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#10 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#11 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#12 /Users/dennis/work/self/pub-sub-laravel/public/index.php(28): Laravel\\Lumen\\Application->run()
+#13 {main}
+"} 
+[2020-07-15 23:25:51] local.ERROR: ReflectionException: Class App\Http\Controllers\App\Http\Controllers\Controller does not exist in /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php:805
+Stack trace:
+#0 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php(805): ReflectionClass->__construct('App\\Http\\Contro...')
+#1 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php(687): Illuminate\Container\Container->build('App\\Http\\Contro...')
+#2 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php(633): Illuminate\Container\Container->resolve('App\\Http\\Contro...', Array)
+#3 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#4 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(321): Laravel\Lumen\Application->make('App\\Http\\Contro...')
+#5 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(279): Laravel\Lumen\Application->callControllerAction(Array)
+#6 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(264): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#7 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(234): Laravel\Lumen\Application->handleFoundRoute(Array)
+#8 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(170): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#9 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(Object(Laravel\Lumen\Http\Request))
+#10 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\Lumen\Application->dispatch(NULL)
+#12 /Users/dennis/work/self/pub-sub-laravel/public/index.php(28): Laravel\Lumen\Application->run()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Controllers\App\Http\Controllers\Controller] does not exist. in /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php:807
+Stack trace:
+#0 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php(687): Illuminate\Container\Container->build('App\\Http\\Contro...')
+#1 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php(633): Illuminate\Container\Container->resolve('App\\Http\\Contro...', Array)
+#2 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#3 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(321): Laravel\Lumen\Application->make('App\\Http\\Contro...')
+#4 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(279): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(264): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(234): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(170): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#8 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(Object(Laravel\Lumen\Http\Request))
+#9 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#10 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\Lumen\Application->dispatch(NULL)
+#11 /Users/dennis/work/self/pub-sub-laravel/public/index.php(28): Laravel\Lumen\Application->run()
+#12 {main} {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Http\\Controllers\\App\\Http\\Controllers\\Controller] does not exist. at /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php:807)
+[stacktrace]
+#0 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php(687): Illuminate\\Container\\Container->build('App\\\\Http\\\\Contro...')
+#1 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php(633): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Contro...', Array)
+#2 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('App\\\\Http\\\\Contro...', Array)
+#3 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(321): Laravel\\Lumen\\Application->make('App\\\\Http\\\\Contro...')
+#4 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction(Array)
+#5 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#6 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#7 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse(Array)
+#8 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#9 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#10 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#11 /Users/dennis/work/self/pub-sub-laravel/public/index.php(28): Laravel\\Lumen\\Application->run()
+#12 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class App\\Http\\Controllers\\App\\Http\\Controllers\\Controller does not exist at /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php:805)
+[stacktrace]
+#0 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php(805): ReflectionClass->__construct('App\\\\Http\\\\Contro...')
+#1 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php(687): Illuminate\\Container\\Container->build('App\\\\Http\\\\Contro...')
+#2 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php(633): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Contro...', Array)
+#3 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('App\\\\Http\\\\Contro...', Array)
+#4 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(321): Laravel\\Lumen\\Application->make('App\\\\Http\\\\Contro...')
+#5 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction(Array)
+#6 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#7 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#8 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse(Array)
+#9 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#10 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#11 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#12 /Users/dennis/work/self/pub-sub-laravel/public/index.php(28): Laravel\\Lumen\\Application->run()
+#13 {main}
+"} 
+[2020-07-15 23:26:06] local.ERROR: RuntimeException: A facade root has not been set. in /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/support/Facades/Facade.php:258
+Stack trace:
+#0 /Users/dennis/work/self/pub-sub-laravel/app/Http/Controllers/Controller.php(16): Illuminate\Support\Facades\Facade::__callStatic('has', Array)
+#1 [internal function]: App\Http\Controllers\Controller->subscribe(Object(Laravel\Lumen\Http\Request), 'topic1')
+#2 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/BoundMethod.php(37): call_user_func_array(Array, Array)
+#3 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Util.php(37): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#4 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/BoundMethod.php(95): Illuminate\Container\Util::unwrapIfClosure(Object(Closure))
+#5 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/BoundMethod.php(39): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closure))
+#6 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php(592): Illuminate\Container\BoundMethod::call(Object(Laravel\Lumen\Application), Array, Array, NULL)
+#7 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(386): Illuminate\Container\Container->call(Array, Array)
+#8 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(352): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#9 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(326): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\Controller), 'subscribe', Array)
+#10 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(279): Laravel\Lumen\Application->callControllerAction(Array)
+#11 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(264): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#12 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(234): Laravel\Lumen\Application->handleFoundRoute(Array)
+#13 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(170): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#14 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(Object(Laravel\Lumen\Http\Request))
+#15 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#16 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\Lumen\Application->dispatch(NULL)
+#17 /Users/dennis/work/self/pub-sub-laravel/public/index.php(28): Laravel\Lumen\Application->run()
+#18 {main} {"exception":"[object] (RuntimeException(code: 0): A facade root has not been set. at /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/support/Facades/Facade.php:258)
+[stacktrace]
+#0 /Users/dennis/work/self/pub-sub-laravel/app/Http/Controllers/Controller.php(16): Illuminate\\Support\\Facades\\Facade::__callStatic('has', Array)
+#1 [internal function]: App\\Http\\Controllers\\Controller->subscribe(Object(Laravel\\Lumen\\Http\\Request), 'topic1')
+#2 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/BoundMethod.php(37): call_user_func_array(Array, Array)
+#3 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#5 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/BoundMethod.php(39): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#6 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/container/Container.php(592): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#7 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(386): Illuminate\\Container\\Container->call(Array, Array)
+#8 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#9 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\Controller), 'subscribe', Array)
+#10 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction(Array)
+#11 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#12 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#13 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse(Array)
+#14 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#15 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#16 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#17 /Users/dennis/work/self/pub-sub-laravel/public/index.php(28): Laravel\\Lumen\\Application->run()
+#18 {main}
+"} 
+[2020-07-15 23:37:51] local.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "tinker" is not defined. in /Users/dennis/work/self/pub-sub-laravel/vendor/symfony/console/Application.php:644
+Stack trace:
+#0 /Users/dennis/work/self/pub-sub-laravel/vendor/symfony/console/Application.php(228): Symfony\Component\Console\Application->find('tinker')
+#1 /Users/dennis/work/self/pub-sub-laravel/vendor/symfony/console/Application.php(140): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/console/Application.php(93): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Illuminate\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /Users/dennis/work/self/pub-sub-laravel/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 {main} {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"tinker\" is not defined. at /Users/dennis/work/self/pub-sub-laravel/vendor/symfony/console/Application.php:644)
+[stacktrace]
+#0 /Users/dennis/work/self/pub-sub-laravel/vendor/symfony/console/Application.php(228): Symfony\\Component\\Console\\Application->find('tinker')
+#1 /Users/dennis/work/self/pub-sub-laravel/vendor/symfony/console/Application.php(140): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /Users/dennis/work/self/pub-sub-laravel/vendor/illuminate/console/Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /Users/dennis/work/self/pub-sub-laravel/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /Users/dennis/work/self/pub-sub-laravel/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
