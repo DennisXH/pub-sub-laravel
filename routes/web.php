@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -11,6 +10,8 @@
 |
 */
 
-$router->get('/', function () use ($router) {
-    return $router->app->version();
-});
+$router->post('subscribe/{topic}', 'Controller@subscribe');
+
+$router->post('publish/{topic}', 'Controller@publish');
+
+$router->get('event', 'Controller@event');
